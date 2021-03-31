@@ -44,12 +44,13 @@ section {
   font-size: 25px;
   line-height: 3rem;
   padding-bottom: 10px;
-  border-bottom: 1px solid lightgray;
 }
 
 .main-icons {
   padding-top: 20px;
   text-decoration: none;
+  border-top: 1px solid rgb(109, 106, 106);
+  width: 500px;
 }
 
 .main-icons a {
@@ -76,7 +77,6 @@ figure img {
   padding-left: 30rem;
   padding-right: 0;
   padding-bottom: 30px;
-  border-bottom: 1px solid lightgray;
 }
 
 .center .first-p {
@@ -138,8 +138,6 @@ figure img {
   text-align: center;
   padding: 25px 0 25px 12rem;
   line-height: 1.5rem;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
   font-family: sans-serif;
   font-size: 14px;
 }

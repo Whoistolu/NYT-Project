@@ -5,7 +5,7 @@
 This is The new york times html page.
 In the process of making this website,I learn some  techniques like float, position, grid, flex property which made our project more flexible.
 
-![screenshot](./image/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
@@ -14,7 +14,7 @@ In the process of making this website,I learn some  techniques like float, posit
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://friendly-euclid-74f5d4.netlify.app/)
 
 ## Authors
 
