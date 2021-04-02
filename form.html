@@ -323,7 +323,45 @@
             <a href="https://www.nytimes.com/subscription?campaignId=48JQY">Subscribe</a>
         </p>
     </div>
-<form action=""></form>
+    
+    <h3 class="line-bottom comment-text">LEAVE A COMMENT</h3>
+    <form action="#" method="POST" class="form">
+        <label for="user-name">Name</label>
+        <input type="text" name="user-name" id="user-name" maxlength="20" placeholder="Full Name" required>
+
+        <label for="user-email">Email</label>
+        <input type="email" name="user-email" id="user-email" maxlength="20" placeholder="Email Address" required>
+
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type your comment here…" maxlength="250" required></textarea>
+
+        <div>
+          <p>What is your overall opinion about this article?</p>
+          <input type="radio" name="opinion" id="positive" value="positive">
+          <label for="positive">Positive</label>
+        </div>
+
+        <div>
+          <input type="radio" name="opinion" id="negative" value="negative">
+          <label for="negative">Negative</label>
+        </div>
+
+        <div>
+          <input type="radio" name="opinion" id="neutral" value="neutral">
+          <label for="neutral">Neutral</label>
+        </div>
+
+        <br>
+        
+        <div>
+          <input type="checkbox" name="subscribe" id="subscribe">
+          <label for="subscribe">I want to subscribe to the newsletter</label>
+        </div>
+
+        <br>
+
+        <button type="submit" class="button send">SEND</button>
+      </form>
 
     <div class="join">
         <button class="btn" type="button">
